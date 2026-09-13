@@ -16,6 +16,8 @@ export const ItemCounter = ({ name, quantity = 1 }: Props) => {
     const [count, setCount] = useState(quantity);
 
     const handleAdd = () => {
+        console.log('onClick by testing');
+
         setCount(count + 1)
     }
 
